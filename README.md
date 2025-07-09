@@ -68,10 +68,13 @@ This Terraform project provisions a secure AWS environment with:
 
 
 
+
 3. **Terraform CleanUp Delete resources**
    ```bash
    terraform destroy
-``
 -------
 
-![example](ssh_to _priv_ec2_using_bastionHost.png)
+
+![example](ssh-to-priv-ec2-using-bastionHost.png)
+
+
