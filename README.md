@@ -74,6 +74,7 @@ This Terraform project provisions a secure AWS environment with:
    terraform destroy
 -------
 
+## ssh-to-priv-ec2-using-bastionHost
 
 ![example](ssh-to-priv-ec2-using-bastionHost.png)
 
