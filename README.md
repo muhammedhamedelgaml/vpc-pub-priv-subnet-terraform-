@@ -42,6 +42,11 @@ This Terraform project provisions a secure AWS environment with:
 - **AWS Credentials**: Configure the CLI with:
   ```bash
   aws configure
+  ```
+### Create Key Pairs 
+ ```bash 
+   ssh-keygen -t rsa -b 4096 -f ec2_key
+  ```
 
 
 
