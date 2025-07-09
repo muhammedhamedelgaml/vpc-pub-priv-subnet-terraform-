@@ -20,6 +20,8 @@ This Terraform project provisions a secure AWS environment with:
 ---
 
 ## 📁 Project Structure
+
+```bash
 .
 ├── backend.tf          # (Optional) Remote backend configuration
 ├── ec2_key             # Private key for SSH
@@ -32,9 +34,7 @@ This Terraform project provisions a secure AWS environment with:
 ├── sg.tf               # Security groups
 ├── variable.tf         # Input variables
 └── vpc.tf              # VPC, subnets, IGW, NAT GW, route tables
-
-
-
+```
 
 ## 🔧 Prerequisites
 - **Terraform**: [Install Terraform](https://www.terraform.io/downloads)
